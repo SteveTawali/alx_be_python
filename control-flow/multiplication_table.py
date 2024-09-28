@@ -1,7 +1,7 @@
 number = float(input("Enter a number to see its multiplication table:"))
 
-print(f"Multiplication tabel for {number}:")
+print(f"Multiplication table for {number}:")
 
 for i in range(1, 11):
     product = number * i
-    print(f"{number} * {i} = {product}")
+    print(f"{number} * {i} = {product}") #format X*Y=Z
