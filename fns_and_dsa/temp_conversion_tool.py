@@ -24,7 +24,7 @@ def main():
         converted = convert_to_fahrenheit(float(temperature))
         print(f"{temperature}°C is {converted:.2f}°F")
     else:
-        print("Invalid unit. Please enter C or F.")
+        print("Invalid temperature. Please enter a numeric value.")
 
 # Run the main function
 if __name__ == "__main__":
